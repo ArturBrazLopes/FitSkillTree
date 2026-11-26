@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "FitSkillTree",
+    "slug": "fit-tech-tree",
+    "version": "0.1.0",
+    "scheme": "fit-tech-tree",
+    "platforms": ["android", "ios"],
+    "android": {
+      "package": "com.fittechtree.app"
+    },
+    "plugins": [
+      "expo-router",
+      ["expo-camera", {
+        "cameraPermission": "Permita que o FitSkillTree use a câmera durante os desafios.",
+        "recordAudioAndroid": false,
+        "microphonePermission": false
+      }]
+    ]
+  }
+}
